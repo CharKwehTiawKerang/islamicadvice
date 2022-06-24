@@ -1,8 +1,15 @@
 //creating API
 
+//installing
 npm init               //for package.json file
 npm install cheerio    //install cheerio package
 npm install express    //install express.js (node.js backend)
-npm install axios      //
+npm install axios      //install axios
 npm install -g nodemon //
-npm run start          //
+npm i nodemon          //install nodemon
+
+//global
+npm run start          //to run the application
+
+//deployment
+git init               //to create git file
