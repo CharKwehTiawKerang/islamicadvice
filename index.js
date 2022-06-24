@@ -5,7 +5,7 @@ const cors = require('cors')
 const app = express()
 
 // CORS (Cross-Origin Resource Sharing) used when creating API with NodeJS
-app.use(cors());
+// app.use(cors());
 
 //array objects
 const quotes = 
