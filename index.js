@@ -1,7 +1,11 @@
 const PORT = process.env.PORT || 8000
 const express = require('express')
+const cors = require('cors')
 
 const app = express()
+
+// CORS (Cross-Origin Resource Sharing) used when creating API with NodeJS
+app.use(cors());
 
 //array objects
 const quotes = 
